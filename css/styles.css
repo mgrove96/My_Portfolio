@@ -1,0 +1,165 @@
+body {
+	color: #003e3e;
+}
+
+.masthead {
+	background: url('../images/Portfolio_background.jpeg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	height: 70rem;
+	overflow: auto;
+}
+
+.top-navigation {
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+}
+
+.top-navigation .links {
+	float: right;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
+	margin-right: 1em;
+}
+
+.top-navigation .links > li {
+	font-family: "Muli", sans-serif;
+	display: inline-block;
+	padding: 1em;
+	color: #EE5F5B;
+}
+
+.masthead .title {
+	margin-left: 3rem;
+	font-family: "Quando", serif;
+	margin-top: 22rem;
+	font-size: 10em;
+	color: #ADd7d7;
+	margin-bottom: 0;
+}
+
+.masthead .description {
+	font-family: "Muli", sans-serif;
+	color: #ADd7d7;
+	font-size: 1.8em;
+	max-width: 42.65rem;
+	margin-left: 57rem;
+}
+
+.pop {
+	color: #EE5F5B;
+}
+
+ul {
+	list-style: none;
+}
+
+.introduction, .location, .questions {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.masthead, .introduction, .location, .questions {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.social > li {
+  display: inline-block;
+  font-size: 1.6em;
+  margin: 0 .3em;
+}
+
+.content-footer {
+	text-align: center;
+	background-color: #EE5F5B;
+	padding: 9em 0;
+}
+
+.content-footer > p {
+  color: white;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p,
+.questions p {
+    /* Typography Declarations */
+    font-family: "Muli", serif;
+    font-size: 1.6em;
+    letter-spacing: 0.05em;
+}
+
+.aboutme-title {
+	font-family: "Quando", Georgia, serif;
+}
+
+.questions > h3 {
+    /* Typography Declarations */
+    font-family: "Quando", Georgia, serif;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.projects {
+	padding-bottom: 9em;
+	background-color: #005852;
+}
+
+
+a {
+  /* Typography Declrations */
+  font-weight: bold;
+  text-decoration: none;
+  color: #56c1c1;
+}
+
+a:visited {
+
+	text-decoration: none;
+	color: #ADd7d7;
+}
+
+a:hover {
+  color: #005852;
+  text-decoration: none;
+}
+
+.project-title {
+	font-family: "Muli", sans-serif;
+	color: white;
+	padding-top: 1em;
+	text-align: center;
+}
+
+.project-list {
+	margin-top: 4em;
+	margin-right: 2em;
+	text-align: center;
+}
+
+
+.social {
+  /* Layout Declarations */
+  padding: 0;
+  /* Appearance Declarations */
+  list-style: none;
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding:  3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
